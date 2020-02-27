@@ -18,8 +18,10 @@
     <p>In groups of 2, go to this <a href="https://www.codingame.com/ide/puzzle/shadows-of-the-knight-episode-1">Batman CodinGame</a> and solve it so all tests pass. Once it passes, upload your solution to your GitHub repo.</p>
 
     <h3>Problem 2</h3>
-    <p>Individually, look at <a href="validation.html">Validation</a>, and have a look at the <a href="validationRequirements.png">requirement</a> of what you need to add.</p>
-    <p>Password validation is it needs to have letters, numbers and at least 1 of the following symbols (<i>!@#&*</i>), and it can not have 3 consecuative numbers, example 456.</p>
+    <p>Individually, look at <a href="validation.html">Validation</a>, and have a look at what we want:</p>
+    <img src="validationRequirements.png" style="background: #000;">
+    <p>You need to:<ul><li>Add Password validation type to first input</li><li>Add a second input box with Numbers and Passwords validation types.</li></ul></p>
+    <p>Passwords may contain letters, numbers and at least 1 of the following symbols (<i>!@#&*</i>), and it can not have 3 consecutive numbers, these will fail abc123, Bob789, because they have 3 consecutive numbers. These will pass, abc135, Bob987.</p>
     <p>In your command line, type <i>npm run mocha</i> to run tests.</p>
 
     <h2>Session B (Lunch to End)</h2>
